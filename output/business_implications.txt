@@ -1,0 +1,31 @@
+Summary of Key Findings:
+
+Exploratory Data Analysis:
+- Overall churn rate: 26.54%
+- High churn rates for month-to-month contracts (42.71%), fiber optic users (41.89%), electronic check payments (45.29%), and senior citizens (41.68%).
+- Numerical features (tenure, MonthlyCharges, TotalCharges) show varied distributions, with tenure skewed toward shorter durations.
+
+Principal Component Analysis:
+- PC1 explains 39.21% of variance, driven by MonthlyCharges, TotalCharges, and tenure.
+- PC2 explains 18.68% (cumulative 57.89%), influenced by tenure and Contract_Two year.
+- Biplot shows separation between churned and non-churned customers, with PC1 reflecting billing patterns.
+
+Classification:
+- Logistic Regression achieved the highest accuracy (0.82).
+- Random Forest accuracy: 0.79, with top features: TotalCharges, tenure, MonthlyCharges.
+- KNN (k=10) accuracy: 0.80.
+- ROC curves indicate strong performance across models, with Logistic Regression leading in AUC.
+
+
+Business Implications:
+The analysis identifies customers with month-to-month contracts, high monthly charges, short tenure, and fiber optic services as most likely to churn. PCA highlights billing-related features (MonthlyCharges, TotalCharges) and tenure as dominant patterns, corroborated by Random Forest's feature importance. To reduce churn, the telecommunications company should:
+1. Offer loyalty programs or discounts for customers with tenure less than 12 months to enhance retention.
+2. Promote one-year or two-year contracts with incentives, given their low churn rates (11.27% and 2.83%).
+3. Improve fiber optic service quality or offer bundled discounts to address high churn (41.89%).
+4. Encourage alternative payment methods for electronic check users (45.29% churn) to improve convenience.
+These strategies can lower churn rates, boosting customer retention and revenue stability.
+
+
+Executive Summary:
+Analysis of the Telco Customer Churn dataset using PCA and classification methods reveals key churn drivers. PCA shows MonthlyCharges, TotalCharges, and tenure explaining 39.21% of variance in PC1, with tenure and contract type driving PC2 (18.68%). Logistic Regression achieved the highest accuracy (0.82), followed by Random Forest (0.79) and KNN (0.80). Random Forest identifies TotalCharges, tenure, and MonthlyCharges as top predictors. Customers with month-to-month contracts (42.71% churn), fiber optic services (41.89%), and electronic check payments (45.29%) are most at risk. Recommended strategies include loyalty programs for short-tenure customers, promoting longer-term contracts, improving fiber optic services, and streamlining payment options. These measures can reduce churn, enhancing customer retention and financial performance.
+(Word count: 126)
