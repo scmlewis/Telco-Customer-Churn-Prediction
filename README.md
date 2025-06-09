@@ -9,9 +9,11 @@ This project, developed for the ISOM5535 High Dimensional Statistics with Busine
 
 ##  Key Findings
 Exploratory Data Analysis (EDA): The dataset includes 7,043 customers with a 26.54% churn rate. High churn is observed for month-to-month contracts (42.71%), fiber optic users (41.89%), electronic check payers (45.29%), and senior citizens (41.68%).
+
 PCA: PC1 explains 39.21% of variance, driven by MonthlyCharges, TotalCharges, and tenure; PC2 explains 18.68% (cumulative 57.89%), influenced by tenure and Contract_Two year.
+
 Classification: Logistic Regression achieved the highest accuracy (0.82), followed by Random Forest (0.79) and KNN (0.80). Random Forest identifies TotalCharges, tenure, and MonthlyCharges as top predictors.
-Business Implications: Recommendations include loyalty programs for short-tenure customers, incentives for longer-term contracts, fiber optic service improvements, and streamlined payment options to reduce churn.
+
 
 ## Results and Business Implications
 The analysis provides actionable insights for reducing churn:
