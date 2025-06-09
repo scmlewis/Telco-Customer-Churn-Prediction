@@ -5,7 +5,7 @@
 
 ##  Overview
 
-This project, developed for the ISOM5535 High Dimensional Statistics with Business Applications course at The Hong Kong University of Science and Technology (Spring 2025), analyzes customer churn in the telecommunications industry using the Telco Customer Churn dataset. The objective is to predict churn and identify key drivers to inform retention strategies, leveraging high-dimensional statistical methods. The analysis employs Principal Component Analysis (PCA) for dimension reduction and classification techniques (K-Nearest Neighbors, Random Forest, Logistic Regression) to build predictive models.
+This project, developed for the ISOM5535 High Dimensional Statistics with Business Applications course at The Hong Kong University of Science and Technology (Spring 2025), analyzes customer churn in the telecommunications industry using the Telco Customer Churn dataset. The objective is to predict churn and identify key drivers to inform retention strategies, leveraging high-dimensional statistical methods. The analysis employs Principal Component Analysis (PCA) for dimension reduction and classification techniques (K-Nearest Neighbors, Random Forest, Logistic Regression) to build predictive models. Navigate to the document in report Folder for details.
 
 ##  Key Findings
 Exploratory Data Analysis (EDA): The dataset includes 7,043 customers with a 26.54% churn rate. High churn is observed for month-to-month contracts (42.71%), fiber optic users (41.89%), electronic check payers (45.29%), and senior citizens (41.68%).
