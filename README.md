@@ -9,7 +9,7 @@ This project, developed for High Dimensional Statistics with Business Applicatio
 
 
 ## Dataset
-Source: Kaggle: https://www.kaggle.com/datasets/blastchar/telco-customer-churn (Available in data/ folder)
+Source: Kaggle: https://www.kaggle.com/datasets/blastchar/telco-customer-churn (Also available in `data` Folder)
 
 Features: tenure, MonthlyCharges, TotalCharges, Contract, InternetService, PaymentMethod, SeniorCitizen, gender, Partner, Dependents, PhoneService, MultipleLines, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, PaperlessBilling, Churn
 
