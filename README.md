@@ -15,7 +15,10 @@ This project, developed for High Dimensional Statistics with Business Applicatio
 
 ##  Methodology
 
-- **EDA**: Visualized churn rates by categorical features (e.g., Contract, InternetService) and numerical distributions (tenure, MonthlyCharges). Identified high churn for month-to-month contracts (42.71%) and fiber optic users (41.89%).Preprocessing: Standardized numerical features, one-hot encoded categorical variables, resulting in 30 features.PCA: Reduced dimensionality, capturing 57.89% variance with PC1 (39.21%, driven by MonthlyCharges, TotalCharges, tenure) and PC2 (18.68%, tenure, Contract_Two year).Modeling: Applied K-Nearest Neighbors (KNN, k=10 via 5-fold CV), Random Forest (100 trees), and Logistic Regression.
+- **EDA**: Visualized churn rates by categorical features (e.g., Contract, InternetService) and numerical distributions (tenure, MonthlyCharges). Identified high churn for month-to-month contracts (42.71%) and fiber optic users (41.89%).
+- **Preprocessing**: Standardized numerical features, one-hot encoded categorical variables, resulting in 30 features.
+- **PCA**: Reduced dimensionality, capturing 57.89% variance with PC1 (39.21%, driven by MonthlyCharges, TotalCharges, tenure) and PC2 (18.68%, tenure, Contract_Two year).
+- **Modeling**: Applied K-Nearest Neighbors (KNN, k=10 via 5-fold CV), Random Forest (100 trees), and Logistic Regression.
 Evaluated using accuracy, sensitivity, specificity, and AUC.
 - **Validation**: Assessed models on test set with confusion matrices and ROC curves.
 
