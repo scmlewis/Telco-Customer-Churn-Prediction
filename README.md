@@ -5,7 +5,7 @@
 
 ##  Overview
 
-This project, developed for High Dimensional Statistics with Business Applications course, analyzes customer churn in the telecommunications industry using the Telco Customer Churn dataset. The objective is to predict churn and identify key drivers to inform retention strategies, leveraging high-dimensional statistical methods. The analysis employs Principal Component Analysis (PCA) for dimension reduction and classification techniques (K-Nearest Neighbors, Random Forest, Logistic Regression) to build predictive models. Navigate to the document in report Folder for details.
+This project, developed for High Dimensional Statistics with Business Applications course, analyzes customer churn in the telecommunications industry using the Telco Customer Churn dataset. The objective is to predict churn and identify key drivers to inform retention strategies, leveraging high-dimensional statistical methods. The analysis employs Principal Component Analysis (PCA) for dimension reduction and classification techniques (K-Nearest Neighbors, Random Forest, Logistic Regression) to build predictive models. Navigate to the report document in `report` folder for details.
 
 
 ## Dataset
