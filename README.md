@@ -52,7 +52,7 @@ Promote alternative payment methods to replace electronic checks.
 - Class imbalance (26.54% churn) may reduce sensitivity (e.g., Random Forest: 0.46).  
 - Lack of causal inference limits distinguishing correlation from causation.  
 - Excluded features (e.g., customer support interactions) may enhance predictions.
-For details, see the report in report/ folder or run analysis_telco_churn.ipynb.
+For details, see the report in report/ folder.
 
 
 ## License
